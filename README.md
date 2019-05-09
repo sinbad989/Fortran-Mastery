@@ -15,7 +15,7 @@ collection of Fortran program from the book *Introduction to Programming with Fo
 13. Reading in data
 14. File 
 15. [Functions](https://github.com/sinbad989/Fortran-Mastery/tree/master/15%20-%20Functions)
-16. Control Structures
+16. [Control Structures](https://github.com/sinbad989/Fortran-Mastery/tree/master/16%20-%20Control%20Structures)
 17. Characters
 18. Complex
 19. Logical
