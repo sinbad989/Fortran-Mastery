@@ -88,4 +88,3 @@ On the other hand, `A` and `B` in the `GCD` function do not exist in any real se
 ### Reference/s: 
 
 1. *Introduction to Programming with Fortran: with Coverage of Fortran 90, 95, 2003, and 77 (I. D. Chivers and J. Sleight)* 
-2. 
