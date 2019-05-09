@@ -19,8 +19,15 @@
   - Character: `len` 
   - Numeric: `digits`, `epsilon`, `exponent`, `fraction`, `huge`, `kind`, 
 - **Transfer and conversion functions** 
+  - `achar`, `aimag`, `aint`, `anint`, `char`, `cmplx`, `conjg`, `dble`, `iachar`, `ibits`, `ichar`, `int`, `logical`, `nint`, `real`, `transfer`
 - **Computational functions** 
+  - Numeric: `abs`, `acos`, `asin`, `atan`, `atan2`, `ceiling`, `cos`, `cosh`, `dim`, `dot_product`, `dprod`, `exp`, `floor`, `log`, `log10`, `matmul`, `max`, `min`, `mod`, `modulo`, `sign`, `sin`, `sinh`, `sqrt`, `tan`, `tanh` 
+  - Character: `adjustl`, `adjustr`, `index`, `lge`, `lgt`, `lle`, `llt` , `repeat`, `scan`, `trim`, `verify` 
+  - Bit: `btest`, `iand`, `ibclr`, `ibset`, `ieor`, `ior`, `ishft`, `ishftc`, `not`
 - **Array functions** 
+  - Reduction: `all`, `any`, `count`, `maxval`, `minval`, `product`, `sum`
+  - Construction: `merge`, `pack`, `spread`, `unpack`
+  - Reshape: `reshape`
 - **Predefined subroutines**
 
 ## 15.8 Supplying your own functions 
