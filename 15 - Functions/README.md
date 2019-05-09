@@ -28,7 +28,11 @@
   - Reduction: `all`, `any`, `count`, `maxval`, `minval`, `product`, `sum`
   - Construction: `merge`, `pack`, `spread`, `unpack`
   - Reshape: `reshape`
+  - Manipulation: `cshift`, `eoshift`, `transpose`
 - **Predefined subroutines**
+  - Date and time: `cpu_time`, `date_and_time`, `system_clock`  
+  - Random number: `random_number`, `random_seed`
+  - Other: `mvbits` 
 
 ## 15.8 Supplying your own functions 
 There are two stages here: 
@@ -68,4 +72,12 @@ integer :: gcd
     print *, ' GCD is', result 
 end program ch1507
 ```
+
+## 15.9  An introduction to the scope of variables and local variables
+
+Solving a problem using Fortran is usually achieved by using *program units* (a main program, one or more functions and one or more subroutines). The communication between units is limited and can be isolated to the arguments of the function. 
+
+From the example above, `i`, `j`, and `result` are local to the main program. 
+
+On the other hand, `A` and `B` in the `GCD` function do not exist in any real sense, rather they will be replaced by the actual variable values from the calling routine. 
 
