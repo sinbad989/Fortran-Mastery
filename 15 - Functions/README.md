@@ -14,10 +14,14 @@
   
 ## 15.7 Complete list of predefined functions 
 
-- Inquiry functions 
-- Computational functions 
-- Array functions 
-- Predefined subroutines
+- **Inquiry functions:**  
+  - Bit: `bit_size` 
+  - Character: `len` 
+  - Numeric: `digits`, `epsilon`, `exponent`, `fraction`, `huge`, `kind`, 
+- **Transfer and conversion functions** 
+- **Computational functions** 
+- **Array functions** 
+- **Predefined subroutines**
 
 ## 15.8 Supplying your own functions 
 There are two stages here: 
