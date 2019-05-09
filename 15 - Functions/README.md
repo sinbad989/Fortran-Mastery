@@ -81,3 +81,11 @@ From the example above, `i`, `j`, and `result` are local to the main program.
 
 On the other hand, `A` and `B` in the `GCD` function do not exist in any real sense, rather they will be replaced by the actual variable values from the calling routine. 
 
+
+
+
+
+### Reference/s: 
+
+1. *Introduction to Programming with Fortran: with Coverage of Fortran 90, 95, 2003, and 77 (I. D. Chivers and J. Sleight)* 
+2. 
