@@ -10,5 +10,4 @@ real :: answer
     print *, j 
     print *, k 
     print *, answer 
-
 end program ch0803

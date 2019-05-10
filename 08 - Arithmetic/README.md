@@ -55,6 +55,26 @@ Truncation takes place in Fortra:
 
 `WARNING`: be careful when attempting *mixed mode arithmetic* - that is , when mixing reals and integers. 
 
+## 8.2 Time taken for light to travel from the Sun to Earth
 
 
+## 8.3 The `PARAMETER` statement
 
+`PARAMETER` is used to provide a meaningful name with a constant in a program. 
+- e.g. pi, c (speed of light)
+
+The following are examples of the `PARAMETER` statement: 
+```fortran
+real, parameter :: pi=3.14159265358, c=2.997925
+real, parameter :: charge=1.6021917 
+```
+
+Note: a `PARAMETER` statement may contain an arithmetic expression, so that some relatively simple arithmetic may be performed in setting up these constants. 
+
+```fortran
+real, parameter :: parsec = 3.08*10**16
+real, parameter :: pi = 3.14159265358
+real, parameter :: radian = 360/pi
+```
+
+## 8.4 Range, precision and size of numbers 
