@@ -24,3 +24,37 @@ Five arithmetic operators available in Fortran:
 
 > You must be aware of these two operations. They may occasionally cause problems in division and in expressions with more than one data type. 
 
+`ch0802.f95` 
+```fortran 
+real :: a,b,c 
+integer :: i 
+    a = 1.5 
+    b = 2.0 
+    c = a/b 
+    i = a/b 
+    print *, a,b 
+    print *, c 
+    print *, i
+```
+For the code above, `C` has the value of 0.75, and `I` has the value zero, as a result of *type conversion*. 
+
+`ch0803.f95` 
+```fortran 
+integer :: i,j,k 
+real :: answer 
+    i = 5 
+    j = 2 
+    k = 4
+    answer = i/j*k 
+```
+In the case above, the `answer` is 8, instead of 10, because of the integer division involve. This is the kind of problem one should be wary.
+
+Truncation takes place in Fortra:
+- across an `=` sign, when a real is assigned to an integer
+- in integer division 
+
+`WARNING`: be careful when attempting *mixed mode arithmetic* - that is , when mixing reals and integers. 
+
+
+
+
