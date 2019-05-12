@@ -7,9 +7,9 @@ collection of Fortran program from the book *Introduction to Programming with Fo
 
 ## Contents: 
 
-8. Arithmetic
-9. Arrays 1 - some fundamentals 
-10. Arrays 2 - further examples 
+8. [Arithmetic](https://github.com/sinbad989/Fortran-Mastery/tree/master/08%20-%20Arithmetic)
+9. [Arrays 1 - some fundamentals](https://github.com/sinbad989/Fortran-Mastery/tree/master/09%20-%20Arrays%201%20-%20Some%20Fundamentals)
+10. [Arrays 2 - further examples](https://github.com/sinbad989/Fortran-Mastery/tree/master/10%20-%20Arrays%202%20-%20Further%20Examples) 
 11. Whole array and additional array features
 12. Output of results 
 13. Reading in data
